@@ -1,0 +1,64 @@
+*{
+    font-family: "Oswald", sans-serif;
+    margin-left: 20px;
+}
+
+
+h1{
+    padding-top: 20px;
+}
+
+h2{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+table {
+    width: 97%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td{
+    font-weight: bolder;
+}
+
+tr{
+    border-bottom: 1px solid black!important;
+}
+
+.id{
+    margin-left: 2px;
+}
+
+
+
+.horizontal-form {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+    width: 50%;
+}
+
+input{
+    border: 0cap;
+}
+
+#inputField1,#inputField2,#inputField3{
+    border: 0cap !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .25rem #8686cc !important;
+
+}
+
+#add{
+    width: 100% !important;
+}
